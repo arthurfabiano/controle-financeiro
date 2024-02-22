@@ -1,10 +1,14 @@
+import Header from "./components/Header";
+import Resume from "./components/Resume";
+import GlobalStyle from "./styles/global";
+
 function App() {
 
   return (
     <>
-      <div>
-        <h2>Controle Financeiro</h2>
-      </div>
+      <Header />
+      <Resume />
+      <GlobalStyle />
     </>
   )
 }
